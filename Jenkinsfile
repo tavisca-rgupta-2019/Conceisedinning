@@ -3,7 +3,7 @@ pipeline {
     parameters {
         string(defaultValue: 'https://github.com/tavisca-csingh/sampleWebApiWithCICD-usingJenkinsandDocker', name: 'GIT_SSH_PATH')
         string(defaultValue: 'ConceiseDinning.API2.0.sln', name: 'SOLUTION_FILE_PATH')
-        string(defaultValue: 'ConceiseDinning.API.Tests/ConceiseDinning.API.csproj', name: 'TEST_PROJECT_PATH')
+        string(defaultValue: 'ConceiseDinning.API.Tests/ConceiseDinning.API.Tests.csproj', name: 'TEST_PROJECT_PATH')
 	string(name: 'APPLICATION_NAME', defaultValue: 'ConceiseDinning.API')
 	string(name: 'DOCKER_HUB_USERNAME', defaultValue: 'ichandan8')
         string(name: 'DOCKER_HUB_CREDENTIALS_ID', defaultValue: 'DockerCredentials')
