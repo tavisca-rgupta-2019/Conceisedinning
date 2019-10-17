@@ -7,7 +7,7 @@ pipeline {
 		
 		string(name: 'Listen_To_Port', defaultValue: '6000')
 		string(name: 'Docker_Username', defaultValue: 'ichandan8')
-		string(name: 'Docker_Password',defaultValue:'firstcompany@799)
+		string(name: 'Docker_Password',defaultValue:'Firstcompany@799)
 		string(name: 'Name_Of_Docker_Image',defaultValue:'webapidockerimage')
 		string(name: 'Docker_Image_Version', defaultValue:'latest')
   }
