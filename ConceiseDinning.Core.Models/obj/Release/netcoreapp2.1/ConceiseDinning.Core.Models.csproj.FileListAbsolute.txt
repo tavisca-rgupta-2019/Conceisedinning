@@ -1,0 +1,8 @@
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Models.deps.json
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Models.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Models.csprojAssemblyReference.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Models.AssemblyInfoInputs.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Models.AssemblyInfo.cs
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Models\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Models.pdb

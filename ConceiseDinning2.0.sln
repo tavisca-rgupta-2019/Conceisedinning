@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.API", "ConceiseDinning.API\ConceiseDinning.API.csproj", "{F08907EE-E59B-4C76-87EF-584D46A2C413}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.Core.Translator", "ConceiseDinning.Core.Translator\ConceiseDinning.Core.Translator.csproj", "{22723C73-7E38-4EC8-A532-9BEC25BB42C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.Core.Models", "ConceiseDinning.Core.Models\ConceiseDinning.Core.Models.csproj", "{91EB402C-9518-4A33-B0B8-BA64E7907CC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.Adapter.Zomato", "ConceiseDinning.Adapter.Zomato\ConceiseDinning.Adapter.Zomato.csproj", "{13FDFBBC-341E-498D-9212-1D2696C1149E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.Adapter.USRestaraunt", "ConceiseDinning.Adapter.USRestaraunt\ConceiseDinning.Adapter.USRestaraunt.csproj", "{2D44903E-DFC7-4431-9673-A6E26A0FCD49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.Services", "ConceiseDinning.Services\ConceiseDinning.Services.csproj", "{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{AA30594F-67D8-4C8D-B681-C2EDFB5414A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8924879B-7E04-4306-996C-D0DCD928B47D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8AF8C7C4-3149-49EC-9182-99700D5F4877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D30ED51E-1E63-4B73-A225-D2A07F872ECC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceiseDinning.API.tests", "ConceiseDinning.API.tests\ConceiseDinning.API.tests.csproj", "{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceiseDinning.Adapter.Geocoder.xyz", "ConceiseDinning.Adapter.Geocoder.xyz\ConceiseDinning.Adapter.Geocoder.xyz.csproj", "{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F08907EE-E59B-4C76-87EF-584D46A2C413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08907EE-E59B-4C76-87EF-584D46A2C413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08907EE-E59B-4C76-87EF-584D46A2C413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08907EE-E59B-4C76-87EF-584D46A2C413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22723C73-7E38-4EC8-A532-9BEC25BB42C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22723C73-7E38-4EC8-A532-9BEC25BB42C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22723C73-7E38-4EC8-A532-9BEC25BB42C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22723C73-7E38-4EC8-A532-9BEC25BB42C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EB402C-9518-4A33-B0B8-BA64E7907CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EB402C-9518-4A33-B0B8-BA64E7907CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EB402C-9518-4A33-B0B8-BA64E7907CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EB402C-9518-4A33-B0B8-BA64E7907CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FDFBBC-341E-498D-9212-1D2696C1149E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FDFBBC-341E-498D-9212-1D2696C1149E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FDFBBC-341E-498D-9212-1D2696C1149E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FDFBBC-341E-498D-9212-1D2696C1149E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D44903E-DFC7-4431-9673-A6E26A0FCD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D44903E-DFC7-4431-9673-A6E26A0FCD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D44903E-DFC7-4431-9673-A6E26A0FCD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D44903E-DFC7-4431-9673-A6E26A0FCD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F08907EE-E59B-4C76-87EF-584D46A2C413} = {8924879B-7E04-4306-996C-D0DCD928B47D}
+		{22723C73-7E38-4EC8-A532-9BEC25BB42C7} = {8AF8C7C4-3149-49EC-9182-99700D5F4877}
+		{91EB402C-9518-4A33-B0B8-BA64E7907CC0} = {8AF8C7C4-3149-49EC-9182-99700D5F4877}
+		{13FDFBBC-341E-498D-9212-1D2696C1149E} = {AA30594F-67D8-4C8D-B681-C2EDFB5414A9}
+		{2D44903E-DFC7-4431-9673-A6E26A0FCD49} = {AA30594F-67D8-4C8D-B681-C2EDFB5414A9}
+		{1C4DE1A0-FD1B-4C6C-BEDF-9DDF96A5D590} = {D30ED51E-1E63-4B73-A225-D2A07F872ECC}
+		{175BA91A-3D76-4AEE-9A6A-FD7F9001B4F3} = {8924879B-7E04-4306-996C-D0DCD928B47D}
+		{42E58AE9-B0FB-4139-90F5-5BCD4A7A1FDE} = {AA30594F-67D8-4C8D-B681-C2EDFB5414A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B32938F9-CA87-441D-97FC-543D0A953721}
+	EndGlobalSection
+EndGlobal

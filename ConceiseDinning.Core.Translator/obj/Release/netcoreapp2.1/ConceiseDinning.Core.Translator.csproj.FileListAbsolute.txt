@@ -1,0 +1,17 @@
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.deps.json
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\ConceiseDinning.Core.Models.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\bin\Release\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.csprojAssemblyReference.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.AssemblyInfoInputs.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.AssemblyInfo.cs
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.csproj.CopyComplete
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Core.Translator\obj\Release\netcoreapp2.1\ConceiseDinning.Core.Translator.pdb

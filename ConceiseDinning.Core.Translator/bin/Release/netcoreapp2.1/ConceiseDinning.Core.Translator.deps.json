@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ConceiseDinning.Core.Translator/1.0.0": {
+        "dependencies": {
+          "ConceiseDinning.Adapter.USRestaraunt": "1.0.0",
+          "ConceiseDinning.Adapter.Zomato": "1.0.0",
+          "ConceiseDinning.Core.Models": "1.0.0",
+          "Newtonsoft.Json": "11.0.0.0"
+        },
+        "runtime": {
+          "ConceiseDinning.Core.Translator.dll": {}
+        }
+      },
+      "ConceiseDinning.Adapter.USRestaraunt/1.0.0": {
+        "runtime": {
+          "ConceiseDinning.Adapter.USRestaraunt.dll": {}
+        }
+      },
+      "ConceiseDinning.Adapter.Zomato/1.0.0": {
+        "runtime": {
+          "ConceiseDinning.Adapter.Zomato.dll": {}
+        }
+      },
+      "ConceiseDinning.Core.Models/1.0.0": {
+        "runtime": {
+          "ConceiseDinning.Core.Models.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConceiseDinning.Core.Translator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConceiseDinning.Adapter.USRestaraunt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConceiseDinning.Adapter.Zomato/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConceiseDinning.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

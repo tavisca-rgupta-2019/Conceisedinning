@@ -1,0 +1,11 @@
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.deps.json
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\bin\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.pdb
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\bin\Release\netcoreapp2.1\Newtonsoft.Json.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\bin\Release\netcoreapp2.1\Newtonsoft.Json.xml
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.csprojAssemblyReference.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.AssemblyInfoInputs.cache
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.AssemblyInfo.cs
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.csproj.CopyComplete
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.dll
+C:\Users\csingh\source\repos\ConceiseDinning2.0\ConceiseDinning.Adapter.Zomato\obj\Release\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.pdb
