@@ -57,6 +57,7 @@ pipeline {
 				             
 					      
                                               powershell "docker push rohit1998/conceirge-dinning-api"
+					      powershell"docker run -d -p 5000:80 rohit1998/conceirge-dinning-api"
 			 
 				
 				
