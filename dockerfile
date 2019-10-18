@@ -5,6 +5,6 @@ COPY ConceiseDinning.API/bin/Release/netcoreapp2.1/publish/ /app/
 
 WORKDIR /app/
 
-EXPOSE 5000
+EXPOSE 80
 
 CMD ["dotnet", "ConceiseDinning.API.dll"]
