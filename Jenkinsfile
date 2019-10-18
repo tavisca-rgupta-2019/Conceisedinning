@@ -1,71 +1,79 @@
 pipeline {
     agent any
-    parameters {
-        string(defaultValue: 'https://github.com/tavisca-csingh/Conceisedinning', name: 'GIT_SSH_PATH')
-        string(defaultValue: 'ConceiseDinning.API2.0.sln', name: 'SOLUTION_FILE_PATH')
-        string(defaultValue: 'ConceiseDinning.API.Tests/ConceiseDinning.API.Tests.csproj', name: 'TEST_PROJECT_PATH')
-	string(name: 'APPLICATION_NAME', defaultValue: 'ConceiseDinning.API')
-	string(name: 'DOCKER_HUB_USERNAME', defaultValue: 'ichandan8')
-        string(name: 'DOCKER_HUB_CREDENTIALS_ID', defaultValue: 'DockerCredentials')
-        string(name: 'DOCKER_IMAGE_NAME', defaultValue: 'conceise-dinning1')
-        string(name: 'DOCKER_IMAGE_TAG', defaultValue: 'latest')
-	string(name: 'Listen_To_Port', defaultValue: '6000')
-	    
-    }
-    stages {
-        stage('Build') {
-            steps {
-                bat'''	dotnet build  %SOLUTION_FILE_PATH -p:Configuration=release -v:q
-			dotnet test %TEST_PROJECT_PATH%
-			dotnet publish WebApi -c Release -o ../artifacts
-		    '''
+	parameters {
+	       
+	       string(name : 'SOLUTION_FILE_PATH', defaultValue: 'ConceiseDinning2.0.sln')
+               string(name : 'TEST_PROJECT_PATH', defaultValue: 'ConceiseDinning.API.tests/ConceiseDinning.API.tests.csproj')
+               string(name : 'PROJECT_FILE_PATH', defaultValue: 'ConceiseDinning.API/ConceiseDinning.API.csproj')
+	       string(name : 'DOCKERHUB_USERNAME', defaultValue: 'rohit1998')
+	       string(name : 'PROJECT_NAME', defaultValue: 'ConceiseDinning')
+	       string(name : 'DOCKERHUB_PASSWORD', defaultValue: 'rohit1998password')
+	       
             }
-        }
-	    
-       stage('docker Image creation')
-        {    
-		steps
-		{
-                bat'''
-		docker build --tag=%DOCKER_HUB_USERNAME%/%DOCKER_IMAGE_NAME%:%DOCKER_IMAGE_TAG% --build-arg project_name=%APPLICATION_NAME% .
-		'''
-                }
-        }
-        
-        stage('Push DockerImage') 
-        {
-            steps {
-		    bat'''
-			docker login -u  %DOCKER_HUB_USERNAME% -p %DOCKER_PASSWORD% 
-			docker push %DOCKER_HUB_USERNAME%/%DOCKER_IMAGE_NAME%:%DOCKER_IMAGE_TAG%
-			'''                        
-	   	  }
-		
-        }
+	stages {
+		stage('Build') {
+
 	
-	stage('Deploy')
-	    {
-            steps {
-                bat '''	docker pull %DOCKER_HUB_USERNAME%/%DOCKER_IMAGE_NAME%:%DOCKER_IMAGE_TAG%
-		'''
-            	}
-           }
-	    
-	stage('SonarQube static Analysis')
-	    {
-		    steps
-		    {
-			    bat'''
-			    dotnet C:/Users/csingh/Downloads/sonar-scanner-msbuild-4.6.2.2108-netcoreapp2.0/SonarScanner.MSBuild.dll begin /k:"WebApi" /d:sonar.host.url="http://localhost:9000" /d:sonar.login="cacd8f279a423a06f1a9963cba71f62471a186b2"
-			    dotnet build
-			    dotnet test
-			    dotnet C:/Users/csingh/Downloads/sonar-scanner-msbuild-4.6.2.2108-netcoreapp2.0/SonarScanner.MSBuild.dll end /d:sonar.login="cacd8f279a423a06f1a9963cba71f62471a186b2"
+           
+		
+			steps {
+				
+		    powershell'''
+				
+
+				dotnet restore ${SOLUTION_FILE_PATH} --source https://api.nuget.org/v3/index.json
+				dotnet build ${SOLUTION_FILE_PATH} -p:Configuration=release -v:n
+                              '''
+			 }
+			}
+                stage('Test') {
+			
+            
+		
+			steps {
+		       powershell'''
+				
+				dotnet test ${TEST_PROJECT_PATH}
+				
+				'''
+			    }
+                         }
+               stage('Publish') {
+	          steps {
+		      powershell'''
+			     
+			     dotnet publish ${PROJECT_FILE_PATH} -p:Configuration=release -v:n
 			    '''
-		    }
-	    }
-	   
-
-
-    }
+                        }
+               }
+	    
+	    stage('Preparing_Docker_Image') {
+	    
+		steps {
+			
+				
+					     powershell "docker build --tag=rohit1998/conceirge-dinning-api:${BUILD_NUMBER} ."
+					     powershell "docker login --username=${DOCKERHUB_USERNAME} --password=${DOCKERHUB_PASSWORD}"
+				             
+					      
+                                              powershell "docker push rohit1998/conceirge-dinning-api:${BUILD_NUMBER}"
+			 
+				
+				
+				
+                               
+			       
+			}
+	       }
+	   }
+post {
+	always{
+		deleteDir()
+	      }
+      }
+	
 	
 }
+
+
+
