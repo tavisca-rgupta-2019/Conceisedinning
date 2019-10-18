@@ -52,11 +52,11 @@ pipeline {
 		steps {
 			
 				
-					     powershell "docker build --tag=rohit1998/conceirge-dinning-api:${BUILD_NUMBER} ."
+					     powershell "docker build --tag=rohit1998/conceirge-dinning-api ."
 					     powershell "docker login --username=${DOCKERHUB_USERNAME} --password=${DOCKERHUB_PASSWORD}"
 				             
 					      
-                                              powershell "docker push rohit1998/conceirge-dinning-api:${BUILD_NUMBER}"
+                                              powershell "docker push rohit1998/conceirge-dinning-api"
 			 
 				
 				
