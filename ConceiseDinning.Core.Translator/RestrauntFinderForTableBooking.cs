@@ -2,15 +2,17 @@
 using ConceiseDinning.Adapter.Geocoder.xyz.Models;
 using System.Collections.Generic;
 using System.IO;
+using ConceiseDinning.Core.Models;
 
 namespace ConceiseDinning.Core.Translator
 {
     public class RestrauntFinderForTableBooking
     {
-        public List<double> GetRestarauntDetails(string LocalityVerbose)
+        public GeocodeLocator GetRestarauntDetails(string LocalityVerbose)
         {
             //RetrauntSearchForTableBooking restrauntFinderForTableBooking = new RetrauntSearchForTableBooking();
-            return RestarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(LocalityVerbose);
+            RestarauntGeocodeLocator restarauntGeocodeLocator = new RestarauntGeocodeLocator();
+            return restarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(LocalityVerbose);
         }
         
         

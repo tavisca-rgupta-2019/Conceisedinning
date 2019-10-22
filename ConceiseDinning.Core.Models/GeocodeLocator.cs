@@ -6,6 +6,8 @@ namespace ConceiseDinning.Core.Models
 {
     public class GeocodeLocator
     {
-        public List<double> GeoCodeCoordinates { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public string CountryName { get; set; }
     }
 }

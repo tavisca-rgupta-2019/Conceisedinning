@@ -21,7 +21,7 @@ namespace ConceiseDinning.API.Controllers
             RestrauntFinderForTableBooking Find = new RestrauntFinderForTableBooking();
             var result = Find.GetRestarauntDetails(LocalityVerbose);
 
-            return result.Count>1?new string[]{"true"}:new string[] { "false" };
+            return result.Latitude==0.00?new string[]{"false"}:new string[] { "true" };
         }
     }
 }

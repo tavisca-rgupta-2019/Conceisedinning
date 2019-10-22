@@ -4,9 +4,7 @@ using System.Text;
 
 namespace ConceiseDinning.Adapter.Geocoder.xyz.Models
 {
-    public class RestarauntCoordinates
-    { 
-    }
+    
         public class Postal
         {
         }
@@ -14,8 +12,8 @@ namespace ConceiseDinning.Adapter.Geocoder.xyz.Models
         public class Standard
         {
             public string stnumber { get; set; }
-            public string addresst { get; set; }
-            public Postal postal { get; set; }
+            public object addresst { get; set; }
+            public object postal { get; set; }
             public string region { get; set; }
             public string prov { get; set; }
             public string city { get; set; }
@@ -31,7 +29,7 @@ namespace ConceiseDinning.Adapter.Geocoder.xyz.Models
         {
         }
 
-        public class RootObject
+        public class RestarauntCoordinates
         {
             public Standard standard { get; set; }
             public string longt { get; set; }
