@@ -2982,6 +2982,9 @@
       "ConceiseDinning.Adapter.Zomato/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "compile": {
           "bin/placeholder/ConceiseDinning.Adapter.Zomato.dll": {}
         },
@@ -3021,7 +3024,8 @@
           "ConceiseDinning.Adapter.Geocoder.xyz": "1.0.0",
           "ConceiseDinning.Adapter.USRestaraunt": "1.0.0",
           "ConceiseDinning.Adapter.Zomato": "1.0.0",
-          "ConceiseDinning.Core.Models": "1.0.0"
+          "ConceiseDinning.Core.Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
           "bin/placeholder/ConceiseDinning.Core.Translator.dll": {}
@@ -9250,11 +9254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API.tests\\ConceiseDinning.API.tests.csproj",
+      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API.tests\\ConceiseDinning.API.tests.csproj",
       "projectName": "ConceiseDinning.API.tests",
-      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API.tests\\ConceiseDinning.API.tests.csproj",
+      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API.tests\\ConceiseDinning.API.tests.csproj",
       "packagesPath": "C:\\Users\\csingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API.tests\\obj\\",
+      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9273,8 +9277,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API\\ConceiseDinning.API.csproj": {
-              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API\\ConceiseDinning.API.csproj"
+            "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API\\ConceiseDinning.API.csproj": {
+              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API\\ConceiseDinning.API.csproj"
             }
           }
         }

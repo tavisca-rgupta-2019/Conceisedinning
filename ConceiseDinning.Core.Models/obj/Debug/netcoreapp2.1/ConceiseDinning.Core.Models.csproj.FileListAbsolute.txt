@@ -1,0 +1,8 @@
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\bin\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.deps.json
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\bin\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\bin\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.pdb
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\obj\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.csprojAssemblyReference.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\obj\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.AssemblyInfoInputs.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\obj\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.AssemblyInfo.cs
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\obj\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Core.Models\obj\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.pdb

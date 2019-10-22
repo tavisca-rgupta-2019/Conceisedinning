@@ -4643,6 +4643,9 @@
       "ConceiseDinning.Adapter.Zomato/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "compile": {
           "bin/placeholder/ConceiseDinning.Adapter.Zomato.dll": {}
         },
@@ -4667,7 +4670,8 @@
           "ConceiseDinning.Adapter.Geocoder.xyz": "1.0.0",
           "ConceiseDinning.Adapter.USRestaraunt": "1.0.0",
           "ConceiseDinning.Adapter.Zomato": "1.0.0",
-          "ConceiseDinning.Core.Models": "1.0.0"
+          "ConceiseDinning.Core.Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
           "bin/placeholder/ConceiseDinning.Core.Translator.dll": {}
@@ -12646,11 +12650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API\\ConceiseDinning.API.csproj",
+      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API\\ConceiseDinning.API.csproj",
       "projectName": "ConceiseDinning.API",
-      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API\\ConceiseDinning.API.csproj",
+      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API\\ConceiseDinning.API.csproj",
       "packagesPath": "C:\\Users\\csingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.API\\obj\\",
+      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12669,11 +12673,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {
-              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj"
+            "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {
+              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj"
             },
-            "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Translator\\ConceiseDinning.Core.Translator.csproj": {
-              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Translator\\ConceiseDinning.Core.Translator.csproj"
+            "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Translator\\ConceiseDinning.Core.Translator.csproj": {
+              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Translator\\ConceiseDinning.Core.Translator.csproj"
             }
           }
         }

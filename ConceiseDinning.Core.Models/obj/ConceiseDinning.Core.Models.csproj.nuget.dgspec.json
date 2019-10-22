@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {}
+    "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {
+    "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj",
+        "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj",
         "projectName": "ConceiseDinning.Core.Models",
-        "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj",
+        "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\ConceiseDinning.Core.Models.csproj",
         "packagesPath": "C:\\Users\\csingh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Core.Models\\obj\\",
+        "outputPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Core.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

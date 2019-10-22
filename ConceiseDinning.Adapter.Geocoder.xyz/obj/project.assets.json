@@ -768,11 +768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Geocoder.xyz\\ConceiseDinning.Adapter.Geocoder.xyz.csproj",
+      "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Geocoder.xyz\\ConceiseDinning.Adapter.Geocoder.xyz.csproj",
       "projectName": "ConceiseDinning.Adapter.Geocoder.xyz",
-      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Geocoder.xyz\\ConceiseDinning.Adapter.Geocoder.xyz.csproj",
+      "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Geocoder.xyz\\ConceiseDinning.Adapter.Geocoder.xyz.csproj",
       "packagesPath": "C:\\Users\\csingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Geocoder.xyz\\obj\\",
+      "outputPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Geocoder.xyz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -791,8 +791,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Services\\ConceiseDinning.Services.csproj": {
-              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Services\\ConceiseDinning.Services.csproj"
+            "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Services\\ConceiseDinning.Services.csproj": {
+              "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Services\\ConceiseDinning.Services.csproj"
             }
           }
         }

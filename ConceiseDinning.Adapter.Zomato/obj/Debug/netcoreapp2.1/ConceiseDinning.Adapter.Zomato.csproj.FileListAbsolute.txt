@@ -1,0 +1,8 @@
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.csprojAssemblyReference.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.AssemblyInfoInputs.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.AssemblyInfo.cs
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.deps.json
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.pdb
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.Zomato\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.Zomato.pdb

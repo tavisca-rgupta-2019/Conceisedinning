@@ -1,0 +1,11 @@
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\bin\Debug\netcoreapp2.1\ConceiseDinning.Services.deps.json
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\bin\Debug\netcoreapp2.1\ConceiseDinning.Services.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\bin\Debug\netcoreapp2.1\ConceiseDinning.Services.pdb
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\bin\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\bin\Debug\netcoreapp2.1\ConceiseDinning.Core.Models.pdb
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.csprojAssemblyReference.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.AssemblyInfoInputs.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.AssemblyInfo.cs
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.csproj.CopyComplete
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Services\obj\Debug\netcoreapp2.1\ConceiseDinning.Services.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj": {}
+    "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj": {
+    "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj",
+        "projectUniqueName": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj",
         "projectName": "ConceiseDinning.Adapter.Zomato",
-        "projectPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj",
+        "projectPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Zomato\\ConceiseDinning.Adapter.Zomato.csproj",
         "packagesPath": "C:\\Users\\csingh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csingh\\Desktop\\ConceiseDinnning\\ConceiseDinning.Adapter.Zomato\\obj\\",
+        "outputPath": "C:\\Users\\csingh\\Desktop\\ConceirgeDinning(Bak)\\NewFolder\\Conceisedinning\\ConceiseDinning.Adapter.Zomato\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [

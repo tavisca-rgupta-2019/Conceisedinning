@@ -14,7 +14,7 @@ namespace ConceiseDinning.API.tests
             //given
             string CityVerbose = "Rajiv Chowk Delhi";
             //when
-            List<double> actual = new List<double>() { 77.21751, 28.65673 };
+            List<double> actual = new List<double>() { 77.22063, 28.63357 };
             RestrauntSearchController restrauntSearch = new RestrauntSearchController();
             
             //then

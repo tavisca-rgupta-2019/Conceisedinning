@@ -1,0 +1,8 @@
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.deps.json
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\bin\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.pdb
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.csprojAssemblyReference.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.AssemblyInfoInputs.cache
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.AssemblyInfo.cs
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.dll
+C:\Users\csingh\Desktop\ConceirgeDinning(Bak)\NewFolder\Conceisedinning\ConceiseDinning.Adapter.USRestaraunt\obj\Debug\netcoreapp2.1\ConceiseDinning.Adapter.USRestaraunt.pdb
