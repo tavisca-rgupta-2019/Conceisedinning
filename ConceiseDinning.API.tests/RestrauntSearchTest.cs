@@ -13,12 +13,16 @@ namespace ConceiseDinning.API.tests
         {
             //given
             string CityVerbose = "Rajiv Chowk Delhi";
-            //when
             List<double> actual = new List<double>() { 77.22063, 28.63357 };
+            //when
+            List<double> expected = new List<double>() { };
             RestrauntSearchController restrauntSearch = new RestrauntSearchController();
-            
+            RestarauntGeocodeLocator restarauntGeocodeLocator = new RestarauntGeocodeLocator();
+            expected.Add(restarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose).Longitude);
+            expected.Add(restarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose).Latitude);
+
             //then
-            Assert.Equal(RestarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose), actual);
+            Assert.Equal(expected, actual);
 
         }
         [Fact]
@@ -26,12 +30,17 @@ namespace ConceiseDinning.API.tests
         {
             //given
             string CityVerbose = "gsdhjsdfbhjdfhdvsjf bbmcdsbbhjb";
+            List<double> actual = new List<double>() {0.00,0.00 };
             //when
-            List<double> actual = new List<double>() {};
+
+            List<double> expected = new List<double>() {  };
             RestrauntSearchController restrauntSearch = new RestrauntSearchController();
+            RestarauntGeocodeLocator restarauntGeocodeLocator = new RestarauntGeocodeLocator();
+            expected.Add(restarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose).Longitude);
+            expected.Add(restarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose).Latitude);
 
             //then
-            Assert.Equal(RestarauntGeocodeLocator.GetRestarauntGeocodeCoordinates(CityVerbose), actual);
+            Assert.Equal(expected, actual);
         }
     }
 }
