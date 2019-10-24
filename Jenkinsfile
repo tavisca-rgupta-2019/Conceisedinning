@@ -26,7 +26,7 @@ pipeline {
                               '''
 			 }
 			}
-                
+             
                stage('Publish') {
 	          steps {
 		      powershell'''
@@ -37,6 +37,10 @@ pipeline {
                }
 	    
 	    stage('Preparing_Docker_Image') {
+		     when {
+                // Only say hello if a "greeting" is requested
+                expression { env.BRANCH_NAME == 'Dev' }
+            }
 	    
 		steps {
 			
