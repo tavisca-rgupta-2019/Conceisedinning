@@ -26,18 +26,7 @@ pipeline {
                               '''
 			 }
 			}
-                stage('Test') {
-			
-            
-		
-			steps {
-		       powershell'''
-				
-				dotnet test ${TEST_PROJECT_PATH}
-				
-				'''
-			    }
-                         }
+                
                stage('Publish') {
 	          steps {
 		      powershell'''
